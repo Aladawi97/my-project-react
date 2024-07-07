@@ -5,10 +5,10 @@
     box-sizing: border-box;
 }
 :root {
-    --primaryBackground:#212222;
+    --primaryBackground:#221f1f;
     --secondaryBackground:#2f3030;
     --primaryColor : #e0a80d;
-    --greyDark:#7d8792;
+    --greyDark:#abb6c2;
     --headingColor : #2d2e2e;
     --white:#fff;
     --black : #000;
@@ -89,7 +89,7 @@ header a{
     color: var(--white);
     display: none;
 }
-@media screen and (max-width : 1200px){
+@media screen and (max-width : 1450px){
     .hero{
         flex-direction: column;
         
@@ -152,7 +152,7 @@ header a{
 
     }
     .about{
-        padding-top: 300px;
+        margin-top: 300px;
         /* margin-bottom: 500px; */
     }
     
@@ -190,7 +190,7 @@ header a{
 
     }
     .Services{
-        padding-top: 10px;
+        margin-top: 10px;
         padding-bottom: 10px;
     }
     .Counter {
@@ -439,6 +439,13 @@ Footer i{
     }
     .grid3 , .grid4{
         grid-template-columns: repeat(2,1fr);
+    }
+    .about{
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    .Services{
+        margin-top: 10px;
     }
     
 
